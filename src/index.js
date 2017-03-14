@@ -114,8 +114,8 @@ module.exports = class Reader extends Component {
           video: {
             deviceId,
             facingMode: facingMode == 'rear' ? 'environment' : 'user',
-            width: { min: 360, ideal: 1280, max: 1920 },
-            height: { min: 240, ideal: 720, max: 1080 },
+            width: { min: 1280, ideal: 1280, max: 1280 },
+            height: { min: 720, ideal: 720, max: 720 },
           },
         })
       })
